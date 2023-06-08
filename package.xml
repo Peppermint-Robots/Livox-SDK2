@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>livox_sdk2</name>
+  <version>1.0.1</version>
+  <description>SDK for livox HAP and Mid 360</description>
+  <maintainer email="syed.faraaz@getpeppermint.co">peppermint</maintainer>
+  <license>TODO: License declaration</license>
+
+  
+  <author>Syed Faraaz Alam</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+
+  <depend>boost</depend>
+ 
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  <build_type>cmake</build_type>
+
+  </export>
+</package>
